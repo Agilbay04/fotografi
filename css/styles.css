@@ -25,7 +25,7 @@ Colors:
 - Backgrounds - light gray #f7f9fd
 - Headings text - black #161223
 - Body text - dark gray #53575a
-- Buttons, icons - green #7dc22b
+- Buttons, icons - green #219ebc
 ******************************************/
 
 
@@ -34,12 +34,13 @@ Colors:
 /**************************/
 body,
 html {
-    width: 100%;
+	width: 100%;
 	height: 100%;
 }
 
-body, p {
-	color: #53575a; 
+body,
+p {
+	color: #53575a;
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
@@ -48,7 +49,7 @@ h1 {
 	font-weight: 600;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2.5rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 h3 {
@@ -64,7 +65,7 @@ h3 {
 	font-weight: 600;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 h4 {
@@ -72,7 +73,7 @@ h4 {
 	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 h5 {
@@ -80,7 +81,7 @@ h5 {
 	font-weight: 600;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 h6 {
@@ -88,7 +89,7 @@ h6 {
 	font-weight: 600;
 	font-size: 1rem;
 	line-height: 1.375rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 .p-large {
@@ -109,7 +110,7 @@ h6 {
 	font-weight: 600;
 	font-size: 1.25rem;
 	line-height: 1.75rem;
-	font-family: "Poppins"
+	font-family: "Nunito";
 }
 
 .li-space-lg li {
@@ -146,8 +147,8 @@ a:hover {
 	vertical-align: -8%;
 }
 
-.green {
-	color: #7dc22b;
+.soft-blue {
+	color: #219ebc;
 }
 
 .bg-gray {
@@ -157,9 +158,9 @@ a:hover {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #219ebc;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: #219ebc;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -170,16 +171,17 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #7dc22b; /* needs to stay here because of the color property of a tag */
+	color: #219ebc;
+	/* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #219ebc;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: #219ebc;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -190,7 +192,8 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #7dc22b; /* needs to stay here because of the color property of a tag */
+	color: #219ebc;
+	/* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -270,18 +273,21 @@ a:hover {
 	background-color: #ffffff;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
-	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+	-webkit-appearance: none;
+	/* removes inner shadow on form inputs on ios safari */
 }
 
 .form-control-textarea {
 	display: block;
-	height: 14rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
+	height: 14rem;
+	/* used instead of html rows to normalize height between Chrome and IE/FF */
 }
 
 .form-control-input:focus,
 .form-control-textarea:focus {
 	border: 1px solid #a1a1a1;
-	outline: none; /* Removes blue border on focus */
+	outline: none;
+	/* Removes blue border on focus */
 }
 
 .form-control-input:hover,
@@ -293,9 +299,9 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #219ebc;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: #219ebc;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -305,9 +311,9 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-	border: 1px solid #7dc22b;
+	border: 1px solid #219ebc;
 	background-color: transparent;
-	color: #7dc22b;
+	color: #219ebc;
 }
 
 
@@ -328,7 +334,7 @@ a:hover {
 }
 
 .navbar .logo-image img {
-    width: 100px;
+	width: 100px;
 	height: 32px;
 }
 
@@ -342,7 +348,8 @@ a:hover {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 3.25rem;
+	/* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
@@ -378,21 +385,22 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #7dc22b;
+	color: #219ebc;
 }
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
-	animation: fadeDropdown 0.2s; /* required for the fade animation */
+	animation: fadeDropdown 0.2s;
+	/* required for the fade animation */
 }
 
 @keyframes fadeDropdown {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 1;
+	100% {
+		opacity: 1;
 	}
 }
 
@@ -415,7 +423,7 @@ a:hover {
 
 .navbar .dropdown-item:hover {
 	background-color: #161223;
-	color: #7dc22b;
+	color: #219ebc;
 }
 
 .navbar .dropdown-divider {
@@ -425,6 +433,7 @@ a:hover {
 	border: none;
 	background-color: #5b5f66;
 }
+
 /* end of dropdown menu */
 
 .navbar .fa-stack {
@@ -434,7 +443,7 @@ a:hover {
 }
 
 .navbar .fa-stack-2x {
-	color: #7dc22b;
+	color: #219ebc;
 	transition: all 0.2s ease;
 }
 
@@ -448,7 +457,7 @@ a:hover {
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-	color: #7dc22b;
+	color: #219ebc;
 }
 
 .navbar .navbar-toggler {
@@ -473,7 +482,7 @@ a:hover {
 	min-height: 100%;
 	width: auto;
 	height: auto;
-	z-index: -100; 
+	z-index: -100;
 }
 
 .header .header-content {
@@ -481,7 +490,7 @@ a:hover {
 	padding-bottom: 9rem;
 	background: linear-gradient(rgba(21, 35, 63, 0.5), rgba(21, 35, 63, 0.5));
 	background-size: cover;
-	text-align: center; 
+	text-align: center;
 }
 
 .header .h1-large {
@@ -514,6 +523,16 @@ a:hover {
 	margin-bottom: 4rem;
 	border: none;
 	border-radius: 6px;
+	padding: 2rem 2.5rem 2rem 2.5rem;
+	border: 1px solid transparent;
+	height: 350px;
+	transition: all ease 0.3s;
+}
+
+.cards-1 .card:hover {
+	transform: scale(1.02);
+	border: 2px solid #219ebc;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 .cards-1 .card-body {
@@ -527,7 +546,7 @@ a:hover {
 	margin-bottom: 2rem;
 	margin-left: auto;
 	border-radius: 50%;
-	background-color: #7dc22b;
+	background-color: #219ebc;
 	text-align: center;
 }
 
@@ -663,7 +682,7 @@ a:hover {
 
 .filter .button:hover,
 .filter .button.is-checked {
-	background-color: #7dc22b;
+	background-color: #219ebc;
 	color: #ffffff;
 }
 
@@ -787,7 +806,7 @@ a:hover {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #7dc22b;
+	color: #219ebc;
 }
 
 .form-1 .form-control-input,
@@ -818,7 +837,7 @@ a:hover {
 
 .counter .purecounter {
 	margin-bottom: 1.5rem;
-	color: #7dc22b;
+	color: #219ebc;
 	font-weight: 600;
 	font-size: 5rem;
 	line-height: 3rem;
@@ -876,12 +895,12 @@ a:hover {
 }
 
 .footer .footer-col.third .fa-stack .fa-stack-1x {
-    color: #9ba3b1;
+	color: #9ba3b1;
 	transition: all 0.2s ease;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-    color: #7dc22b;
+	color: #219ebc;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -909,18 +928,18 @@ a:hover {
 /*     Back To Top Button     */
 /******************************/
 #myBtn {
-	position: fixed; 
-  	z-index: 99; 
-	bottom: 20px; 
-	right: 20px; 
-	display: none; 
+	position: fixed;
+	z-index: 99;
+	bottom: 20px;
+	right: 20px;
+	display: none;
 	width: 52px;
 	height: 52px;
-	border: none; 
-	border-radius: 50%; 
-	outline: none; 
-	background-color: #323137; 
-	cursor: pointer; 
+	border: none;
+	border-radius: 50%;
+	outline: none;
+	background-color: #323137;
+	cursor: pointer;
 }
 
 #myBtn:hover {
@@ -972,7 +991,7 @@ a:hover {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-	color: #7dc22b;
+	color: #219ebc;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
@@ -991,10 +1010,54 @@ a:hover {
 	margin-bottom: 0.5rem;
 }
 
+/*************************/
+/*    Loading Screen     */
+/*************************/
+.loader {
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+}
+
+.loader .ring {
+	position: relative;
+	height: 45px;
+	width: 45px;
+	border: 5px solid #ddd;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader .ring::after {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	border: 5px solid #219ebc;
+	border-radius: 50%;
+	border-top-color: transparent;
+	animation: rotate 1.5s linear infinite;
+}
+
+/*************************/
+/*       Keyframes       */
+/*************************/
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
 
 /*************************/
 /*     Media Queries     */
-/*************************/	
+/*************************/
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1003,6 +1066,7 @@ a:hover {
 		padding-top: 15rem;
 		padding-bottom: 13rem;
 	}
+
 	/* end of header */
 
 
@@ -1018,6 +1082,7 @@ a:hover {
 		font-size: 6rem;
 		line-height: 4rem;
 	}
+
 	/* end of statistics */
 
 
@@ -1026,6 +1091,7 @@ a:hover {
 		display: inline-block;
 		margin-right: 1rem;
 	}
+
 	/* end of contact */
 
 
@@ -1033,14 +1099,16 @@ a:hover {
 	.ex-basic-1 .text-box {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
+
 	/* end of extra pages */
 }
+
 /* end of min-width 768px */
 
 
 /* Min-width 992px */
 @media (min-width: 992px) {
-	
+
 	/* General Styles */
 	.h2-heading {
 		width: 35.25rem;
@@ -1053,6 +1121,7 @@ a:hover {
 		margin-right: auto;
 		margin-left: auto;
 	}
+
 	/* end of general styles */
 
 
@@ -1093,7 +1162,7 @@ a:hover {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-	
+
 	.navbar .nav-item .nav-link {
 		padding-right: 0.75rem;
 		padding-left: 0.75rem;
@@ -1112,11 +1181,12 @@ a:hover {
 	.navbar .social-icons {
 		margin-left: 0.5rem;
 	}
-	
+
 	.navbar .fa-stack {
 		margin-right: 0;
 		margin-left: 0.25rem;
 	}
+
 	/* end of navigation */
 
 
@@ -1125,12 +1195,13 @@ a:hover {
 		padding-top: 18rem;
 		padding-bottom: 16rem;
 	}
-	
+
 	.header .h1-large {
 		margin-bottom: 2.75rem;
 		font-size: 5rem;
 		line-height: 5.75rem;
 	}
+
 	/* end of header */
 
 
@@ -1140,11 +1211,12 @@ a:hover {
 		width: 290px;
 		vertical-align: top;
 	}
-	
+
 	.cards-1 .card:nth-of-type(3n+2) {
 		margin-right: 1.75rem;
 		margin-left: 1.75rem;
 	}
+
 	/* end of introduction */
 
 
@@ -1152,13 +1224,13 @@ a:hover {
 	.split {
 		height: 786px;
 	}
-	
+
 	.split .area-1 {
 		height: 100%;
 		width: 50%;
 		display: inline-block;
 	}
-	
+
 	.split .area-2 {
 		height: 100%;
 		width: 50%;
@@ -1171,6 +1243,7 @@ a:hover {
 		width: 400px;
 		margin-left: 3rem;
 	}
+
 	/* end of details */
 
 
@@ -1178,20 +1251,23 @@ a:hover {
 	.basic-1 .image-container {
 		margin-bottom: 0;
 	}
+
 	/* end of services 1 */
-	
-	
+
+
 	/* Services 2 */
 	.basic-2 .image-container {
 		margin-bottom: 0;
 	}
+
 	/* end of services 2 */
-	
-	
+
+
 	/* Services 3 */
 	.basic-3 .image-container {
 		margin-bottom: 0;
 	}
+
 	/* end of services 3 */
 
 
@@ -1207,6 +1283,7 @@ a:hover {
 		margin-left: 0.625rem;
 		vertical-align: top;
 	}
+
 	/* end of projects */
 
 
@@ -1221,14 +1298,14 @@ a:hover {
 		margin-right: 1.75rem;
 		vertical-align: top;
 	}
-	
+
 	.footer .footer-col.second {
 		display: inline-block;
 		width: 320px;
 		margin-right: 1.75rem;
 		vertical-align: top;
 	}
-	
+
 	.footer .footer-col.third {
 		display: inline-block;
 		width: 224px;
@@ -1240,6 +1317,7 @@ a:hover {
 		margin-right: 0;
 		margin-left: 0.375rem;
 	}
+
 	/* end of footer */
 
 
@@ -1254,26 +1332,29 @@ a:hover {
 		margin-right: 1rem;
 		margin-left: 1rem;
 	}
+
 	/* end of extra pages */
 }
+
 /* end of min-width 992px */
 
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
-	
+
 	/* General Styles */
 	.container {
 		max-width: 1140px;
 	}
+
 	/* end of general styles */
-	
+
 
 	/* Header */
 	.header {
 		height: 100vh;
 	}
-	
+
 	.header .header-content {
 		display: flex;
 		flex-direction: column;
@@ -1287,6 +1368,7 @@ a:hover {
 		padding: 1.875rem 3rem;
 		font-size: 1rem;
 	}
+
 	/* end of header */
 
 
@@ -1299,6 +1381,7 @@ a:hover {
 		margin-right: 3.625rem;
 		margin-left: 3.625rem;
 	}
+
 	/* end of introduction */
 
 
@@ -1311,6 +1394,7 @@ a:hover {
 		width: 450px;
 		margin-left: 6rem;
 	}
+
 	/* end of details */
 
 
@@ -1319,22 +1403,25 @@ a:hover {
 		margin-top: 4rem;
 		margin-left: 5rem;
 	}
+
 	/* end of services 1 */
-	
-	
+
+
 	/* Services 2 */
 	.basic-2 .text-container {
 		margin-top: 4rem;
 		margin-left: 5rem;
 	}
+
 	/* end of services 2 */
-	
-	
+
+
 	/* Services 3 */
 	.basic-3 .text-container {
 		margin-top: 4rem;
 		margin-left: 5rem;
 	}
+
 	/* end of services 3 */
 
 
@@ -1342,6 +1429,7 @@ a:hover {
 	.filter .grid {
 		max-width: 1120px;
 	}
+
 	/* end of projects */
 
 
@@ -1351,6 +1439,7 @@ a:hover {
 		margin-right: auto;
 		margin-left: auto;
 	}
+
 	/* end of testimonials */
 
 
@@ -1359,7 +1448,7 @@ a:hover {
 		margin-right: 3.5rem;
 		margin-left: 3.5rem;
 	}
-	
+
 	.counter .counter-cell:first-of-type {
 		margin-left: 0;
 	}
@@ -1367,6 +1456,7 @@ a:hover {
 	.counter .counter-cell:last-of-type {
 		margin-right: 0;
 	}
+
 	/* end of statistics */
 
 
@@ -1376,6 +1466,7 @@ a:hover {
 		margin-right: auto;
 		margin-left: auto;
 	}
+
 	/* end of contact */
 
 
@@ -1384,14 +1475,15 @@ a:hover {
 		width: 352px;
 		margin-right: 6rem;
 	}
-	
+
 	.footer .footer-col.second {
 		margin-right: 6.5rem;
 	}
-	
+
 	.footer .footer-col.third {
 		text-align: right;
 	}
+
 	/* end of footer */
 
 
@@ -1404,6 +1496,8 @@ a:hover {
 		margin-right: 2.875rem;
 		margin-left: 2.875rem;
 	}
+
 	/* end of extra pages */
 }
+
 /* end of min-width 1200px */

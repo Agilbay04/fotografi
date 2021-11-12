@@ -32,7 +32,11 @@
     <link rel="icon" href="images/favicon.png">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
-    
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="ring"></div>
+    </div>
+
     <!-- Navigation -->
     <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <div class="container">
@@ -98,8 +102,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="h1-large">Creative Social Media Digital Agency</h1>
-                        <a class="btn-solid-lg" href="#introduction">Discover</a>
+                        <h1 class="h1-large">Duxeos Studio & Digital Illustration</h1>
+                        <a class="btn-solid-lg" href="#introduction">About us</a>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
@@ -209,7 +213,7 @@
                     <div class="text-container">
                         <h2>Photo shooting and image editing services</h2>
                         <p>who eat she defective applauded departure joy. Get dissimilar not introduced day her apartment Fully as taste he mr do smile abode every. Luckily we have words offered article led</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <a class="read-more no-line soft-blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -231,7 +235,7 @@
                     <div class="text-container">
                         <h2>Video production and editing services</h2>
                         <p>Smile abode every. Luckily offered article led lasting country minutes nor old. Happen people things oh is oppose up parish effect. Law hands old outweigh humoured far appetite</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <a class="read-more no-line soft-blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -253,7 +257,7 @@
                     <div class="text-container">
                         <h2>Digital illustration and animation service</h2>
                         <p>Am if number no up period regard sudden better. Decisively surrounded all admiration and not you. Out particular sympathize not favourable introduced insipidity but ham rather</p>
-                        <a class="read-more no-line green" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <a class="read-more no-line soft-blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -553,5 +557,18 @@
     <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+    <!-- Loading Screen -->
+    <script>
+        const loader = document.querySelector('.loader');
+        window.onload = () => {
+            setTimeout(function() {
+                loader.style.opacity = '0';
+                setTimeout(function() {
+                    loader.style.display = 'none';
+                }, 500);
+            }, 1500);
+        }
+    </script>
 </body>
 </html>
